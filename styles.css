@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .logo-left {
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+  }
+  
+  .text-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .text-content h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .text-content h3 {
+    margin: 5px 0 15px 0;
+    font-weight: 600;
+  }
+  
+  .text-content p {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
